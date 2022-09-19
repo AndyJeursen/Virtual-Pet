@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DigiPet</title>
+    <script src="https://kit.fontawesome.com/63601a6d76.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="pet-wrapper">
+        <h1 class="heading">DigiPet</h1>
+       
+        <p></p>
+        <section class="pet-image-container">
+            <img class="pet-image" src="https://img.freepik.com/free-vector/adorable-marine-ajolote-illustration_23-2149222000.jpg?w=2000">
+          </section>
+          <section class="dashboard">
+          
+        
+        <br />
+
+        <div id="control-wrapper">
+            <div>
+                <button id="feed-button" class="pretty-button"><i class="fa-solid fa-utensils"></i></button>
+                <progress id="feed-progress" class="progress-bar" value="50" max="100"></progress>
+            </div>
+            
+            <div>
+                <button id="cuddle-button" class="pretty-button"><i class="fa-solid fa-heart"></i></button>
+                <progress id="cuddle-progress" class="progress-bar" value="50" max="100"></progress>
+            </div>
+            
+            <div>
+                <button id="play-button" class="pretty-button"><i class="fa-solid fa-table-tennis-paddle-ball"></i></button>
+                <progress id="play-progress" class="progress-bar" value="50" max="100"></progress>
+            </div>
+            
+            <div>
+                <button id="sleep-button" class="pretty-button"><i class="fa-solid fa-bed"></i></button>
+                <progress id="sleep-progress" class="progress-bar" value="50" max="100"></progress>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>  
+</body>
+</html>

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Hey Comic";
+    src: url("Hey Comic.otf");
+}
+
+h1,.heading {
+    text-align:center;
+    color: black;
+    font-family: 'Bungee Spice', cursive;
+    /* font-family: 'Hey Comic', Courier, monospace; */
+}
+
+
+
+
+
+body {
+    background-color: #ead7d7;
+    background: linear-gradient(
+        rgb(151, 231, 251),
+        rgb(138, 235, 188),
+        rgb(17, 180, 8)
+    );
+
+    height: 100vh;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.pet-image{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+
+.pet-wrapper {
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 30px;
+    font-weight: 300;
+    width: 500px;
+}
+
+.pet-wrapper h2 {
+    margin: 0;
+}
+
+.pet-wrapper p {
+    font-style: italic;
+    color: #666;
+    margin: 5px 0;
+}
+
+.pet-wrapper ol {
+    margin: 20px 0;
+}
+
+.pet-wrapper ol li {
+    margin: 5px 0;
+    padding: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.pet-wrapper ol li:nth-child(even) {
+    background: #ddd;
+}
+
+.pet-wrapper .completed {
+    text-decoration: line-through;
+    color: rgb(175, 172, 172);
+}
+
+.pet-wrapper .pretty-button {
+    margin: 50px 2px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: #12d743;
+    border: none;
+    color: #fff;
+    text-align: center;
+    display: block;
+    font-size: small;
+}
+.progress-bar{
+    width: 100%;
+    height: 45px;
+}
+
+.pet-wrapper .pretty-button:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+
+#control-wrapper {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media only screen and (min-width: 1000px) {
+    .pet-wrapper {
+        width: 50%;
+    }
+
+    .pet-wrapper input {
+        width: 600px;
+    }
+    
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+   
+     .pet-wrapper input {
+        width: 400px;
+    }
+}
+
