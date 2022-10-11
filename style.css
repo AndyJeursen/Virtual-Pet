@@ -9,9 +9,38 @@ h1,.heading {
     font-family: 'Hey Comic', Courier, monospace;
 }
 
+.input-div {
 
+   margin: 0 auto;
+   display: inline;
+}
 
+#save-button {
 
+display:inline;
+background-color: rgb(151,231,251);
+padding: 5px 7.5px;
+}
+
+.edit-div h2  {
+ 
+margin: 0 auto;
+width: 100px;    
+display: inline;
+
+}
+
+.edit-div{
+
+    margin:  0 auto;
+}
+
+#edit-button{
+    display:inline;
+    background-color: rgb(151,231,251);
+    padding: 5px 7.5px;
+
+}
 
 body {
     background-color: #ead7d7;
@@ -42,6 +71,9 @@ body {
     padding: 30px;
     font-weight: 300;
     width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .pet-wrapper h2 {
@@ -79,7 +111,6 @@ body {
 }
 
 .pet-wrapper .pretty-button {
-    margin: 50px 2px;
     padding: 5px 20px;
     border-radius: 15px;
     background-color: #12d743;
@@ -109,19 +140,10 @@ body {
 
 @media only screen and (min-width: 1000px) {
     .pet-wrapper {
-        width: 50%;
+        width: 25%;
     }
 
-    .pet-wrapper input {
-        width: 600px;
-    }
     
 }
 
-@media only screen and (max-width: 1399px) and (min-width: 750px) {
-   
-     .pet-wrapper input {
-        width: 400px;
-    }
-}
 
