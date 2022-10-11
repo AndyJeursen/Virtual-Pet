@@ -20,6 +20,10 @@ saveButton.addEventListener("click",function(){
     // Show petName and editButton
 })
 
+// I have hidden the below name input and save button so that it is not visible when the page loads - cleaner look.
+nameInput.style.visibility = "hidden";
+saveButton.style.visibility = "hidden";
+
 editButton.addEventListener("click", function (){
     // make petName and editButton disappear. 
     // Make nameInput and saveButton appear
@@ -154,3 +158,4 @@ function deadPet(){
 
 // create save pet function - kill pet - pet image to change
 // create function that runs when pet dies, run this function in each if statement where the progress bar is zero
+// currently both the name input and the name shows when you first load the page. use js to hide the name input and save button (icon) as soon as the js loads/immediately.
